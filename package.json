@@ -1,0 +1,8 @@
+{
+"name" : "Postman CI Demo",
+"Version": "1.0",
+
+"scripts": {
+"api-tests": "newman run Stealth-ID.postman_collection.json -e Stealth.postman_environment.json -r htmlextra --reporter-htmlextra-darkTheme"
+},
+}
